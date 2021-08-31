@@ -1,4 +1,4 @@
-# Angular app with message popup and loader components and demonstrated Ngrx usage
+## Angular app with message popup and loader components, language manager with demonstrated Ngrx usage.
 
 ## Run the development backend server
 
