@@ -1,0 +1,25 @@
+{
+    "HEADER": {
+      "TITLE": "Aplicación de inicio simple"
+    },
+    "FOOTER": {
+      "COPYRIGHT": "Derechos de autor",
+      "COMPANY": "Empresa"
+    },
+    "POPUP": {
+      "INFORMATION_TITLE": "Información",
+      "INFORMATION_TEXT": "Esta es una ventana emergente de información.",
+      "WARNING_TITLE": "Advertencia",
+      "WARNING_TEXT": "Esta es una ventana emergente de advertencia.",
+      "ERROR_TITLE": "Error",
+      "ERROR_TEXT": "Esta es una ventana emergente de error.",
+      "CRITICAL_TITLE": "Crítica",
+      "CRITICAL_TEXT": "Esta es una ventana emergente crítica.",
+      "CONFIRM_TEXT": "Esta es la ventana emergente de confirmación.",
+      "CLOSE": "Cerrar"
+    },
+    "COMMON": {
+      "LOADER": "La cargadora"
+    }
+  }
+  

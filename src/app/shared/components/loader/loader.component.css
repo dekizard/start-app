@@ -1,0 +1,75 @@
+.hidden {
+  display: none;
+}
+
+.loader-overlay {
+  position: absolute;
+  width: 100%;
+  z-index: 500000;
+  top: 0;
+}
+
+.loader {
+  height: 4px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.loader:before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 200px;
+  height: 4px;
+  background-color: red;
+  animation: loading 2s linear infinite;
+}
+
+#posts {
+  margin: 20px 0;
+  list-style-type: none;
+}
+
+#about {
+  margin: 20px;
+}
+
+.alerts {
+  margin: 20px 0;
+  color: red;
+}
+
+.ngplus-overlay-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#ngplus-overlay-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.ngplus-overlay-content {
+  left: 0;
+  width: 400px;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  z-index: 10000;
+}

@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+.btn-wrapper {
+  margin-left: 35px;
+  float: left;
+}
+.critical {
+  background-color: #f37022;
+}

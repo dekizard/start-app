@@ -1,0 +1,18 @@
+<div class="fixed-header">
+  <div class="container">
+    <div>
+      <span >{{ localization.translation.HEADER.TITLE ?? 'HEADER.TITLE' }}</span>
+    </div>
+      
+      <div class="dropdown language">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownButton" (click)="toggleLang()">
+          <span [ngClass]="'flag-icon ' + currentTranslationId"></span> {{ currentTranslationName }}
+        </button>
+        <ng-container *ngIf="showLang"> 
+          <div class="dropdown-menu language">
+            <a class="dropdown-item" *ngFor="let item of languages$ | async as languages " (click)="changeLanguage(item)"><span [ngClass]="'flag-icon ' + item.id"> </span> {{ item.name }}</a>          
+          </div>
+        </ng-container>
+      </div>
+  </div>  
+</div> 

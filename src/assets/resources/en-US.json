@@ -1,0 +1,24 @@
+{
+  "HEADER": {
+    "TITLE": "Simple start application"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "Copyright",
+    "COMPANY": "Company"
+  },
+  "POPUP": {
+    "INFORMATION_TITLE": "Information",
+    "INFORMATION_TEXT": "This is information popup.",
+    "WARNING_TITLE": "Warning",
+    "WARNING_TEXT": "This is warning popup.",
+    "ERROR_TITLE": "Error",
+    "ERROR_TEXT": "This is error popup.",
+    "CRITICAL_TITLE": "Critical",
+    "CRITICAL_TEXT": "This is critical popup.",
+    "CONFIRM_TEXT": "This is confirm popup.",
+    "CLOSE": "Close"
+  },
+  "COMMON": {
+    "LOADER": "Loader"
+  }
+}

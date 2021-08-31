@@ -1,0 +1,65 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.fixed-header,
+.fixed-footer {
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+}
+.fixed-header {
+  top: 0;
+}
+
+.container {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.dropdown.language {
+  position: absolute;
+  right: 200px;
+  width: auto;
+  top: 20px;
+}
+
+.dropdown-menu {
+  display: block;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .dropdown.language {
+    right: 100px;
+    position: absolute;
+    top: 10px;
+  }
+}
+
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+  height: 17px;
+  top: 3px;
+}
+
+.en-US {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/flags/4x3/us.svg);
+}
+
+.fr-FR {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/flags/4x3/fr.svg);
+}
+
+.es-ES {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/flags/4x3/es.svg);
+}

@@ -1,0 +1,25 @@
+{
+    "HEADER": {
+      "TITLE": "Application de démarrage simple"
+    },
+    "FOOTER": {
+      "COPYRIGHT": "Droits d'auteur",
+      "COMPANY": "Société"
+    },
+    "POPUP": {
+      "INFORMATION_TITLE": "Informations",
+      "INFORMATION_TEXT": "Il s'agit d'une fenêtre contextuelle d'information.",
+      "WARNING_TITLE": "Avertissement",
+      "WARNING_TEXT": "Ceci est une fenêtre d'avertissement.",
+      "ERROR_TITLE": "Erreur",
+      "ERROR_TEXT": "C'est une fenêtre d'erreur.",
+      "CRITICAL_TITLE": "Critique",
+      "CRITICAL_TEXT": "Il s'agit d'une fenêtre contextuelle critique.",
+      "CONFIRM_TEXT": "Ceci est une fenêtre contextuelle de confirmation.",
+      "CLOSE": "Proche"
+    },
+    "COMMON": {
+      "LOADER": "Le loader"
+    }
+  }
+  

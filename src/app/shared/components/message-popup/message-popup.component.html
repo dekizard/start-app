@@ -1,0 +1,45 @@
+<div class="c-modal" tabindex="-1" aria-labelledby="modal-title" aria-modal="true" role="dialog">
+  <div class="c-modal__content">
+      <div class="c-modal__content-header"
+        [ngClass]="{
+          'header-popup-info': showInfoMessage,
+          'header-popup-warning': showWarningMessage,
+          'header-popup-error': showErrorMessage,
+          'header-popup-critical': showCriticalMessage
+        }">
+          <h4 *ngIf="showInfoMessage" class="c-modal__content-header-title" id="modal-title">{{ localization.translation.POPUP?.INFORMATION_TITLE ?? 'POPUP.INFORMATION_TITLE'}}</h4>
+          <h4 *ngIf="showWarningMessage" class="c-modal__content-header-title" id="modal-title">{{ localization.translation.POPUP?.WARNING_TITLE ?? 'POPUP.WARNING_TITLE'}}</h4>
+          <h4 *ngIf="showErrorMessage" class="c-modal__content-header-title" id="modal-title">{{ localization.translation.POPUP?.ERROR_TITLE ?? 'POPUP.ERROR_TITLE'}}</h4>
+          <h4 *ngIf="showCriticalMessage" class="c-modal__content-header-title" id="modal-title">{{ localization.translation.POPUP?.CRITICAL_TITLE ?? 'POPUP.CRITICAL_TITLE'}}</h4>
+          <button class="c-modal__content-header-button" aria-label="Close" (click)="close()">
+              <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="c-modal__content-body">
+          <p>{{ message.text }}</p>
+      </div>
+      <ng-container *ngIf="isAlert()">
+        <div class="c-modal__content-footer">
+          <div class="c-button-primary c-modal__content-footer-button">
+            <button class="c-button-primary__title" (click)="close()">
+                <span>OK</span>
+            </button>
+        </div>
+       </div>
+      </ng-container>
+      <ng-container *ngIf="!isAlert()">
+       <div class="c-modal__content-footer">
+          <div class="c-button-secondary c-modal__content-footer-button">
+              <button class="c-button-secondary__title" (click)="close()">
+                  <span>{{ localization.translation.POPUP?.CLOSE ?? 'POPUP.CLOSE'}}</span>
+              </button>
+          </div>
+          <div class="c-button-primary c-modal__content-footer-button">
+              <button class="c-button-primary__title" (click)="confirm()">
+                  <span>OK</span>
+              </button>
+          </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="btn-wrapper">
+        <button class="btn btn-info" (click) ="showInformation()"> {{ localization.translation.POPUP?.INFORMATION_TITLE ?? 'POPUP.INFORMATION_TITLE' }}</button>
+    </div>
+    <div class="btn-wrapper">
+        <button class="btn btn-warning" (click) ="showWarning()"> {{localization.translation.POPUP?.WARNING_TITLE ?? 'POPUP.WARNING_TITLE'}}</button>
+    </div>
+    <div class="btn-wrapper">
+        <button class="btn btn-danger" (click) ="showError()"> {{ localization.translation.POPUP?.ERROR_TITLE ?? 'POPUP.ERROR_TITLE' }}</button>
+    </div>
+    <div class="btn-wrapper">
+        <button class="btn critical" (click) ="showCritical()"> {{ localization.translation.POPUP?.CRITICAL_TITLE ?? 'POPUP.CRITICAL_TITLE' }}</button>
+    </div>
+    <div class="btn-wrapper">
+        <button class="btn btn-info" (click) ="showAlert()"> {{ localization.translation.POPUP?.INFORMATION_TITLE ?? 'POPUP.INFORMATION_TITLE' }}</button>
+    </div>
+    <div class="btn-wrapper">
+        <button class="btn btn-success" (click) ="showLoader()"> {{ localization.translation.COMMON?.LOADER ?? 'COMMON.LOADER' }}</button>
+    </div>
+</div>
