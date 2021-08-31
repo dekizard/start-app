@@ -1,13 +1,11 @@
-## Message popup and loader components
+# Angular app with message popup and loader components and demonstrated Ngrx usage
 
-Angular application with demonstrated Ngrx usage.
-
-# Run the development backend server:
+## Run the development backend server
 
 npm run server
 
 
-# Run the development UI server:
+## Run the development UI server
 
 npm start 
 
